@@ -1,18 +1,18 @@
-## ⚠️ Maintenance & support
+## ⚠️ Bakım & Destek
 
-This library continues to be relied upon heavily by Atlassian products, but we are focused on other priorities right now and have no current plans for further feature development or improvements.
+Bu kütüphane Atlassian ürünleri tarafından yoğun bir şekilde kullanılmaya devam ediyor, ancak şu anda diğer önceliklere odaklanmış durumdayız ve daha fazla özellik geliştirme veya iyileştirme için mevcut bir planımız yok.
 
-It will continue to be here on GitHub and we will still make critical updates (e.g. security fixes, if any) as required, but will not be actively monitoring or replying to issues and pull requests.
+Burada GitHub'da olmaya devam edecek ve gerektiğinde kritik güncellemeleri (örn. varsa güvenlik düzeltmeleri) yapmaya devam edeceğiz, ancak sorunları ve çekme isteklerini aktif olarak izlemeyecek veya yanıtlamayacağız.
 
-We recommend that you don’t raise issues or pull requests, as they will not be reviewed or actioned until further notice.
+Bir sonraki duyuruya kadar incelenmeyecekleri veya işleme alınmayacakları için sorun veya çekme isteği oluşturmamanızı öneririz.
 
-> [!IMPORTANT]
+> [!Önemli]
 >
-> **Update: 3rd April 2024**
+> **Güncelleme: 3 Nisan 2024**
 >
 > <a href="https://www.youtube.com/watch?v=uySl2yiUYE4"><img src="https://github.com/alexreardon/files/assets/2182637/bb7740a3-875c-49aa-be54-e7268d836d60" width="300px" /></a>
 >
-> [📺 Watch on Youtube](https://www.youtube.com/watch?v=uySl2yiUYE4) <br> [🗣️ Discussion](https://github.com/atlassian/react-beautiful-dnd/issues/2573)
+> [📺 Youtube'da izle](https://www.youtube.com/watch?v=uySl2yiUYE4) <br> [🗣️ Tartışma](https://github.com/atlassian/react-beautiful-dnd/issues/2573)
 
 <br>
 
@@ -25,58 +25,59 @@ We recommend that you don’t raise issues or pull requests, as they will not be
 
 <div align="center">
 
-**Beautiful** and **accessible** drag and drop for lists with [`React`](https://facebook.github.io/react/)
+**Harika** ve **erişilebilir** listeler için sürükle ve bırak [`React`](https://facebook.github.io/react/)
 
 [![CircleCI branch](https://img.shields.io/circleci/project/github/atlassian/react-beautiful-dnd/master.svg)](https://circleci.com/gh/atlassian/react-beautiful-dnd/tree/master)
 [![npm](https://img.shields.io/npm/v/react-beautiful-dnd.svg)](https://www.npmjs.com/package/react-beautiful-dnd)
 
 ![quote application example](https://user-images.githubusercontent.com/2182637/53614150-efbed780-3c2c-11e9-9204-a5d2e746faca.gif)
 
-[Play with this example if you want!](https://react-beautiful-dnd.netlify.com/iframe.html?selectedKind=board&selectedStory=simple)
+[İstersen örnek ile test edebilirsin.](https://react-beautiful-dnd.netlify.com/iframe.html?selectedKind=board&selectedStory=simple)
 
 </div>
 
-## Core characteristics
+## Temel Özellikler
 
-- Beautiful and [natural movement](/docs/about/animations.md) of items 💐
-- [Accessible](/docs/about/accessibility.md): powerful keyboard and screen reader support ♿️
-- [Extremely performant](/docs/support/media.md) 🚀
-- Clean and powerful api which is simple to get started with
-- Plays extremely well with standard browser interactions
-- [Unopinionated styling](/docs/guides/preset-styles.md)
-- No creation of additional wrapper dom nodes - flexbox and focus management friendly!
+- Öğelerin harika ve [doğal hareketi](/docs/about/animations.md)
+- [Erişilebilir](/docs/about/accessibility.md): güçlü klavye ve ekran okuyucu desteği ♿️
+- [Son derece performanslı](/docs/support/media.md) 🚀
+- Başlaması kolay, temiz ve güçlü api
+- Standart tarayıcı etkileşimleriyle son derece iyi çalışır
+- [Düzenli tasarım](/docs/guides/preset-styles.md)
+- Ek sarmalayıcı dom düğümleri oluşturmaya gerek yok - flexbox ve odak yönetimi dostu!
 
-## Get started 👩‍🏫
+## Hemen Başla 👩‍🏫
 
-We have created [a free course on `egghead.io` 🥚](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd) to help you get started with `react-beautiful-dnd` as quickly as possible.
+react-beautiful-dnd `kullanmaya mümkün olduğunca çabuk başlamanıza yardımcı olmak için `[egghead.io 🥚](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd) adresinde ücretsiz bir kurs oluşturduk.
 
 [![course-logo](https://user-images.githubusercontent.com/2182637/43372837-8c72d3f8-93e8-11e8-9d92-a82adde7718f.png)](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd)
 
-## Currently supported feature set ✅
+## Şu anda desteklenen özellikler ✅
 
-- Vertical lists ↕
-- Horizontal lists ↔
-- Movement between lists (▤ ↔ ▤)
-- [Virtual list support 👾](/docs/patterns/virtual-lists.md) - unlocking 10,000 items @ 60fps
-- [Combining items](/docs/guides/combining.md)
-- Mouse 🐭, keyboard 🎹♿️ and touch 👉📱 (mobile, tablet and so on) support
-- [Multi drag support](/docs/patterns/multi-drag.md)
-- Incredible screen reader support ♿️ - we provide an amazing experience for english screen readers out of the box 📦. We also provide complete customisation control and internationalisation support for those who need it 💖
-- [Conditional dragging](/docs/api/draggable.md#optional-props) and [conditional dropping](/docs/api/droppable.md#conditionally-dropping)
-- Multiple independent lists on the one page
-- Flexible item sizes - the draggable items can have different heights (vertical lists) or widths (horizontal lists)
-- [Add and remove items during a drag](/docs/guides/changes-while-dragging.md)
-- Compatible with semantic `<table>` reordering - [table pattern](/docs/patterns/tables.md)
-- [Auto scrolling](/docs/guides/auto-scrolling.md) - automatically scroll containers and the window as required during a drag (even with keyboard 🔥)
-- Custom drag handles - you can drag a whole item by just a part of it
-- Able to move the dragging item to another element while dragging (clone, portal) - [Reparenting your `<Draggable />`](/docs/guides/reparenting.md)
-- [Create scripted drag and drop experiences 🎮](/docs/sensors/sensor-api.md)
-- Allows extensions to support for [any input type you like 🕹](/docs/sensors/sensor-api.md)
-- 🌲 Tree support through the [`@atlaskit/tree`](https://atlaskit.atlassian.com/packages/confluence/tree) package
-- A `<Droppable />` list can be a scroll container (without a scrollable parent) or be the child of a scroll container (that also does not have a scrollable parent)
-- Independent nested lists - a list can be a child of another list, but you cannot drag items from the parent list into a child list
-- Server side rendering (SSR) compatible - see [resetServerContext()](/docs/api/reset-server-context.md)
-- Plays well with [nested interactive elements](/docs/api/draggable.md#interactive-child-elements-within-a-draggable-) by default
+- Dikey listeler ↕
+- Yatay listeler ↔
+- Listeler arasında hareket (▤ ↔ ▤)
+- [Sanal liste desteği 👾](/docs/patterns/virtual-lists.md) - 60 fps'de 10.000 öğenin kilidini açma
+- [Öğeleri birleştirme](/docs/guides/combining.md)
+- Fare 🐭, klavye 🎹♿️ ve dokunmatik 👉📱 (mobil, tablet vb.) desteği
+- [Çoklu sürükleme desteği](/docs/patterns/multi-drag.md)
+- İnanılmaz ekran okuyucu desteği ♿️ - İngilizce ekran okuyucular için kutudan çıkar çıkmaz harika bir deneyim sağlıyoruz 📦. Ayrıca ihtiyaç duyanlar için tam özelleştirme kontrolü ve uluslararasılaştırma desteği sağlıyoruz 💖
+- Koşullu sürükleme](/docs/api/draggable.md#optional-props) ve [koşullu bırakma](/docs/api/droppable.md#conditionally-dropping)
+- Tek sayfada birden fazla bağımsız liste
+- Esnek öğe boyutları - sürüklenebilir öğeler farklı yüksekliklere (dikey listeler) veya genişliklere (yatay listeler) sahip olabilir
+- [Sürükleme sırasında öğe ekleme ve kaldırma](/docs/guides/changes-while-dragging.md)
+- Anlamsal `<tablo>` yeniden sıralaması ile uyumlu - [tablo kalıbı](/docs/patterns/tables.md)
+- Otomatik kaydırma](/docs/guides/auto-scrolling.md) - sürükleme sırasında konteynerleri ve pencereyi gerektiği gibi otomatik olarak kaydırır (klavye ile bile 🔥)
+- Özel sürükleme tutamaçları - bir öğenin tamamını sadece bir kısmından sürükleyebilirsiniz
+- Sürükleme sırasında sürüklenen öğeyi başka bir öğeye taşıyabilme (klon, portal) - [Reparenting your `<Draggable />`](/docs/guides/reparenting.md)
+- [Reparenting your `<Draggable />`](/docs/guides/reparenting.md)
+- [Komut dosyası sürükle ve bırak deneyimleri oluşturun 🎮](/docs/sensors/sensor-api.md)
+- Uzantıların [istediğiniz herhangi bir girdi türünü 🕹] desteklemesine izin verir (/docs/sensors/sensor-api.md)
+- 🌲 [`@atlaskit/tree`](https://atlaskit.atlassian.com/packages/confluence/tree) paketi aracılığıyla ağaç desteği
+- Bir `<Droppable />` listesi bir kaydırma konteyneri olabilir (kaydırılabilir bir ebeveyni olmadan) veya bir kaydırma konteynerinin çocuğu olabilir (aynı zamanda kaydırılabilir bir ebeveyni olmayan)
+- Bağımsız iç içe listeler - bir liste başka bir listenin alt listesi olabilir, ancak öğeleri üst listeden alt listeye sürükleyemezsiniz
+- Sunucu tarafı oluşturma (SSR) uyumlu - bkz [resetServerContext()](/docs/api/reset-server-context.md)
+- Varsayılan olarak [iç içe etkileşimli öğeler](/docs/api/draggable.md#interactive-child-elements-within-a-draggable-) ile iyi çalışır.
 
 ## Motivation 🤔
 
@@ -164,7 +165,6 @@ There are a lot of libraries out there that allow for drag and drop interactions
 - [![pt](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Português/Portuguese**](https://github.com/dudestein/react-beautiful-dnd-pt)
 - [![gr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Greece.png) **Ελληνικά/Greek**](https://github.com/milvard/react-beautiful-dnd-gr)
 - [![ja](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Japan.png) **日本語/Japanese**](https://github.com/eltociear/react-beautiful-dnd-ja)
-
 
 ## Creator ✍️
 
